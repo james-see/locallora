@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# uv
+.uv/
+uv.lock
+
+# Output & Models (large files)
+output/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Training data (regeneratable)
+papers_text.jsonl
+papers_alpaca.jsonl
+prepared_data/
+
+# Downloaded papers (regeneratable)
+papers/*.pdf
+
+# HuggingFace cache
+.cache/
+~/.cache/huggingface/
+
+# Tensorboard
+logs/
+runs/
+*.tfevents.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Misc
+*.log
+*.tmp
+.env
+.env.local
